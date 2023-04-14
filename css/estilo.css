@@ -1,0 +1,157 @@
+body {
+  margin: 0px;
+}
+
+.nav-container {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 12vh;
+  background-color: rgb(249, 213, 230);
+}
+
+.navbar-logo {
+  justify-self: center;
+  margin-left: 20px;
+  color: #1b1b1b;
+  margin-top: 4vh;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.ver-carrito {
+  font-size: 25px;
+  margin-right: 20px;
+  margin-top: 3.5vh;
+  cursor: pointer;
+}
+
+.shop-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.card {
+  box-shadow: #1b1b1b;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin: 20px;
+}
+
+.card>img {
+  width: 90%;
+  height: 250px;
+}
+
+.price {
+  color: rgb(99, 16, 74);
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #000;
+  background-color: rgb(249, 213, 230);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.modal-container {
+  width: 80%;
+  margin: 0 10%;
+  max-height: 88vh;
+  color: #000;
+  background-color: rgb(249, 213, 230);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  overflow: auto;
+  z-index: 9;
+  top: 12vh;
+  scrollbar-color: none;
+}
+
+.modal-container::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(249, 213, 230);
+  color: #000;
+  width: 100%;
+}
+
+.modal-header-title {
+  justify-self: start;
+}
+
+.modal-header-button {
+  cursor: pointer;
+}
+
+.modal-container>.modal-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin: 10px;
+}
+
+.modal-container>div>img {
+  height: 120px;
+  width: 120px;
+}
+
+.total-content {
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.sumar {
+  cursor: pointer;
+}
+
+.restar {
+  cursor: pointer;
+}
+.delete-product {
+  cursor: pointer;
+}
+
+.finalizar-compra {
+  border: none;
+  outline: 10;
+  padding: 12px;
+  color: #000;
+  background-color: rgb(209, 170, 188);
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  font-size: 18px;
+  margin-bottom: 20px;
+}

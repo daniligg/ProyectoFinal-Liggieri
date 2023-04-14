@@ -1,0 +1,23 @@
+[
+    {
+    "id": 1,
+    "nombre": " JABÓN DE ALMENDRA",
+    "precio": 1500,
+    "img": "./images/jabonalmendra.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 2,
+    "nombre": "JABÓN DE COCO Y NARANJA",
+    "precio": 1700,
+    "img": "./images/jabonnaranja.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 3,
+    "nombre": "JABÓN DE CHOCOLATE",
+    "precio": 1600,
+    "img": "./images/jabonchocolate.jpg",
+    "cantidad": 1
+  }
+  ]
